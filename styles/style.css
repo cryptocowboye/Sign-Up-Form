@@ -7,10 +7,31 @@ body {
     margin: 0px;
 }
 
+.background-image {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
 .background-image > img {
     height: 100vh;
 }
 
 .overlay-banner {
     font-family: Norse-Bold, sans-serif;
+    background-color: rgba(0, 0, 0, 0.616);
+    position: relative;
+    bottom: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-banner > img {
+    height: 25ch;
+}
+
+.overlay-banner > h1 {
+    font-size: 15ch;
+    color: white;
 }

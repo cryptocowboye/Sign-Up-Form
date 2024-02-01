@@ -1,1 +1,3 @@
-# Sign-Up-Form
+Before the Project:
+
+I will be attempting to create a sign-up form with all of the intermediate html and css I've learned with the Odin Project. After months of a coding hiatus (especially after building my first PC and reconnecting to github), I hope that I can still code at the same level as I had been doing some months ago. Understanding how forms work on the html-side seems to be the easy part; however, the hard part will be styling the form (the Odin Project seemed to lack brevity at this portion, to which, I don't hold any ill will towards them for it.)

@@ -6,11 +6,19 @@
 body {
     margin: 0px;
 }
+.entire-page {
+    display: flex;
+}
+
+.form-section {
+    width: 100%;
+}
 
 .background-image {
     width: fit-content;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .background-image > img {
@@ -20,8 +28,9 @@ body {
 .overlay-banner {
     font-family: Norse-Bold, sans-serif;
     background-color: rgba(0, 0, 0, 0.616);
-    position: relative;
-    bottom: 75vh;
+    position: absolute;
+    bottom: 45vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -5,13 +5,20 @@
 
 body {
     margin: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37, 37, 37);
 }
+
 .entire-page {
     display: flex;
+    justify-content: center;
 }
 
 .form-section {
-    width: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .background-image {
@@ -46,7 +53,15 @@ body {
 }
 
 .form-area {
-    height: 34vh;
+    height: 15rem;
+    background-color: white;
+}
+
+#user_form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .word-area {
@@ -76,4 +91,17 @@ p.words {
 
 .label {
     margin: 0;
+}
+
+.top-row, .mid-row, .bottom-row {
+    display: flex;
+}
+
+.column {
+    margin-right: 3rem;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: smaller;
 }

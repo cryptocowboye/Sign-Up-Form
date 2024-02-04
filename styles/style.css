@@ -44,3 +44,36 @@ body {
     font-size: 15ch;
     color: white;
 }
+
+.form-area {
+    height: 34vh;
+}
+
+.word-area {
+    justify-content: end;
+}
+
+p.words {
+    padding-right: 25%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.extra {
+    padding-bottom: 2rem;
+}
+
+.word-area, .button-area {
+    background-color: rgb(233, 233, 233);
+    height: 33vh;
+}
+.word-area, .button-area, .form-area {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+
+.label {
+    margin: 0;
+}

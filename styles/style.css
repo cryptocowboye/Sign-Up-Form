@@ -101,9 +101,23 @@ p.words {
     margin-right: 3rem;
 }
 
+div.column > input {
+    height: 1.5rem;
+    width: 15rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #d5d5d5;
+    border-width: 1px;
+}
+
 div.column > input:focus {
     box-shadow: 4px 4px 4px 0 rgb(143 143 143 / 20%), 3px 3px 4px 0 rgb(97 97 97 / 19%);
+    border-style: solid;
+    border-color: rgb(25, 25, 255);
+    outline: 1px rgb(25, 25, 255) solid;
 }
+
+
 
 label {
     font-family: sans-serif;

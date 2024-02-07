@@ -101,7 +101,27 @@ p.words {
     margin-right: 3rem;
 }
 
+div.column > input:focus {
+    box-shadow: 4px 4px 4px 0 rgb(143 143 143 / 20%), 3px 3px 4px 0 rgb(97 97 97 / 19%);
+}
+
 label {
     font-family: sans-serif;
     font-size: smaller;
+}
+
+.button-area {
+    flex-grow: 1;
+}
+
+input[type="submit"] {
+    height: 45px;
+    width: 250px;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
 }

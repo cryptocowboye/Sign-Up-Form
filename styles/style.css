@@ -113,9 +113,9 @@ div.column > input {
 div.column > input:focus {
     box-shadow: 4px 4px 4px 0 rgb(143 143 143 / 20%), 3px 3px 4px 0 rgb(97 97 97 / 19%);
     border-style: solid;
-    border-color: rgb(25, 25, 255);
     outline: 1px rgb(25, 25, 255) solid;
 }
+
 
 
 

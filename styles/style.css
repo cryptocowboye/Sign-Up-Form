@@ -117,7 +117,12 @@ div.column > input:focus {
 }
 
 
-
+.retypePassword {
+    margin: 0;
+    font-size: small;
+    color: red;
+    font-family: sans-serif;
+}
 
 label {
     font-family: sans-serif;

@@ -144,3 +144,21 @@ input[type="submit"] {
     border-style: none;
     cursor: pointer;
 }
+
+.recurring-user {
+    font-family: sans-serif;
+}
+
+.recurring-user > span {
+    font-weight: 600;
+    color: #596D48;
+}
+
+h3 {
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.italic-font {
+    font-style: italic;
+}
